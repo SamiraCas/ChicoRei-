@@ -1,6 +1,6 @@
 <template>
-  <div className="single-product-container">
-             <section class="page-header">
+<div className="single-product-container">
+             <section class="page-header"> 
                  <div class="overly"></div>   
                  <div class="container">
                  <div class="row justify-content-center">
