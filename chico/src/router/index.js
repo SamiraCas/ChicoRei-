@@ -1,56 +1,36 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import ShopView from '../views/ShopView.vue'
-import CartView from '../views/CartView.vue'
+import ProductsView from '../views/ProductsView.vue'
+import ImagesView from '../views/ImagesView.vue'
+import GalleryView from '../views/GalleryView.vue'
 import CheckoutView from '../views/CheckoutView.vue'
-import ProductDetailsView from '../views/ProductDetailsView.vue'
-import LoginView from '../views/LoginView.vue'
-import SignupView from '../views/SignupView.vue'
-import ForgotPasswordView from '../views/ForgotPasswordView.vue' 
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'products',
+      component: ProductsView
     },
     {
-      path: '/shop',
-      name: 'shop',
-      component: ShopView
-    },
-    {
-      path: '/cart',
-      name: 'cart',
-      component: CartView
-    },
-    {
-      path: '/checkout',
+      path: '/finalizar-compra',
       name: 'checkout',
       component: CheckoutView
     },
     {
-      path: '/productdetails',
-      name: 'productdetails',
-      component: ProductDetailsView
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: LoginView
-    },
-    {
-      path: '/signup',
-      name: 'signup',
-      component: SignupView
-    },
-    {
-      path: '/forgotpassword',
-      name: 'forgotpassword',
-      component: ForgotPasswordView
+      path: '/imagens',
+      name: 'gallery',
+      component: GalleryView,
+
+      children: [
+        {path: '/imagens/:id',
+        name: 'images',
+        component: ImagesView,
+        props: true}
+      ]
     }
+
   ]
 })
 
+export default router
