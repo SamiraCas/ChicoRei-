@@ -10,6 +10,4 @@ import FooterComponent from './components/FooterComponent.vue';
  
 </template>
 
-<style scoped>
-</style>
 

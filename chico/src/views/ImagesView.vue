@@ -14,15 +14,7 @@ const imagesList = [
     },
     {
         id: 'camisetas',
-        src: 'https://chicorei.imgix.net/49545/4fd602b4-ded1-11ed-89ac-73ec7dafb90e.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
-    },
-    {
-        id: 'camisetas',
         src: 'https://chicorei.imgix.net/16079/81cf0f30-3924-11ed-a3cf-7b5fd5fd4a46.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
-    },
-    {
-        id: 'camisetas',
-        src: 'https://chicorei.imgix.net/14063/d0b8fa61-328b-11ed-90e9-bd81cc5fbf93.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
     },
     {
         id: 'camisetas',
@@ -34,18 +26,6 @@ const imagesList = [
     },
     {
         id: 'acessórios',
-        src: 'https://chicorei.imgix.net/11930/35949901-df2f-11eb-870e-e9d92b289c20.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
-    },
-    {
-        id: 'acessórios',
-        src: 'https://chicorei.imgix.net/15409/5be73ff0-3c55-11ea-a33a-17219a39e2e4.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
-    },
-    {
-        id: 'acessórios',
-        src: 'https://chicorei.imgix.net/57317/41fe6d20-ef62-11ed-8f28-4b891abd1747.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
-    },
-    {
-        id: 'acessórios',
         src: 'https://chicorei.imgix.net/7309/a3b73e71-df38-11eb-870e-e9d92b289c20.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
     },
     {
@@ -54,15 +34,7 @@ const imagesList = [
     },
     {
         id: 'quadros',
-        src: 'https://chicorei.imgix.net/21392/1b38f820-6437-11ec-be3e-a7527c92ba75.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
-    },
-    {
-        id: 'quadros',
         src: 'https://chicorei.imgix.net/51075/bded6100-c2a0-11ed-9d2a-adc65bbac71d.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
-    },
-    {
-        id: 'quadros',
-        src: 'https://chicorei.imgix.net/36034/54f9c6e0-816c-11ed-b291-4397a03ac568.jpg?auto=compress,format&q=65&w=550&h=824&fit=crop&crop=top'
     },
     {
         id: 'quadros',
@@ -88,7 +60,3 @@ const imagesList = [
 
 
 
-<style  scoped>
-
-
-</style>

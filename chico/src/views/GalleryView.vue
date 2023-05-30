@@ -17,6 +17,3 @@ const menulist = [
 
 
 
-<style scoped>
-
-</style>

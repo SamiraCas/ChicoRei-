@@ -21,6 +21,3 @@ function handleMenu() {
 
 
 
-<style  scoped>
-
-</style>
